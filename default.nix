@@ -20,7 +20,7 @@ let
     ];
 
     propagatedBuildInputs = with pkgs; [
-      segger-jlink libusb
+      segger-jlink libusb1
     ];
 
     installPhase = ''
